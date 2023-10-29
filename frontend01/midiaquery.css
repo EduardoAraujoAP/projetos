@@ -1,0 +1,292 @@
+@media screen and (max-width: 1200px) {
+    .text1{
+        font-size: 2rem;
+    }
+    .text2{
+        font-size: 1rem;
+    }
+    .text2 button{
+        margin-top: 5%;
+        height: 20%;
+    }
+    .formText h1{
+        font-size: 1.4rem;
+        padding-bottom: 2%;
+    }
+    .formText h2{
+        font-size: 1rem;
+    }
+    .formText p{
+        font-size: .9rem;
+    }
+    article h1{
+        padding-top: 2.5%;
+        font-size: 2.5rem;
+    }
+    article h2{
+        font-size: 1rem;
+    }
+    article p{
+        font-size: .9rem;
+    }    
+}
+@media screen and (max-width: 1100px) {
+    .container{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .text1{
+        font-size: 1.9rem;
+    }
+    .text2{
+        font-size: .9rem;
+    }
+    .text2 button{
+        margin-top: 5%;
+        height: 20%;
+    }
+    .formText h1{
+        font-size: 1.2rem;
+        padding-bottom: 2%;
+    }
+    .formText h2{
+        font-size: .9rem;
+    }
+    .formText p{
+        font-size: .9rem;
+    }
+    article h1{
+        padding-top: 0px;
+        font-size: 2rem;
+    }
+    article h2{
+        font-size: .8rem;
+    }
+    article p{
+        font-size: .75rem;
+    }
+    .space{
+        display: none;
+    }
+    hr{
+        margin: 10px 0px;
+    }
+    .img01 img,.img02 img,.img03 img{
+        width: 50%;
+        height: 65%;
+    }
+    nav a{
+        font-size: .95rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container{
+        width: 95%;
+    }
+    .text1{
+        padding-top: 30px;
+        font-size: 1.8rem;
+    }
+    .text2{
+        padding-top: 30px;
+    }
+    .formText h1{
+        font-size: 1rem;
+        padding-bottom: 2%;
+    }
+    .formText h2{
+        font-size: .8rem;
+    }
+    .formText p{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    header{
+        width: 80%;
+        margin: auto;
+    }
+    nav a{
+        display: none;
+    }
+    main{
+        display: block;
+    }
+    section#primeiro{
+        width: 100%;
+    }
+    .img00{
+        width: 80%;
+        margin: auto;
+    }
+    .text{
+        display: block;
+    }
+    .text1{
+        width: 80%;
+        margin: auto;
+
+    }
+    .text2{
+        margin: auto;
+        width: 80%;
+        font-size: 1.65rem;
+    }
+    .text button{
+        height: 50px;
+        width: 45%;
+        font-size: 1.5rem;
+    }
+    article{
+        width: 70%;
+        margin: auto;
+    }
+    .space{
+        display: block;
+    }
+    article h1{
+        font-size: 3rem;
+    }
+    article h2{
+        font-size: 1.4rem;
+    }
+    article p{
+        font-size: 1.2rem;
+    }
+    section#segundo{
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .img01,.img02,.img03{
+        display: flex;
+        width: 100%;
+        background-color: transparent;
+        padding: 25px 0px;
+    }
+    .img01 img,.img02 img,.img03 img{
+        width: 50%;
+    }
+    .formText{
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    .form{
+        display: flex;
+    }
+    .formText h1{
+        color: gray;
+        font-family: var(--inter-bold);
+        padding-bottom: 5%;
+        font-size: 2rem;
+    }
+    .formText h2{
+        color: black;
+        font-family: var(--inter-bold);
+        font-size: 1.8rem;
+        padding-bottom: 5%;
+    }
+    .formText p{
+        margin-right: 3px;
+        color: gray;
+        font-family: var(--inter); 
+        font-size: 1.3rem;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    header{
+        width: 90%;
+    }
+    .img00{
+        width: 90%;
+    }
+    .text1{
+        width: 90%;
+        font-size: 1.6rem;
+    }
+    .text2{
+        width: 90%;
+        font-size: 1.4rem;
+    }
+    .text2 button{
+        font-size: 1rem;
+        height: 35px;
+    }
+    article{
+        width: 90%;
+    }
+    article h1{
+        font-size: 2.5rem;
+    }
+    article h2{
+        font-size: 1.2rem;
+        line-height: 50px;
+    }
+    article p{
+        font-size: 1.1rem;
+    }
+    section#segundo{
+        width: 90%;
+    }
+    .formText h1{
+        font-size: 1.8rem;
+    }
+    .formText h2{
+        font-size: 1.4rem;
+    }
+    .formText p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    header{
+        width: 100%;
+    }
+    .img00{
+        width: 100%;
+    }
+    .text1{
+        width: 100%;
+    }
+    .text2{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    article{
+        width: 100%;
+    }
+    section#segundo{
+        width: 100%;
+        padding: 20px 0ox;
+    }.img02,.img03{
+        padding-top: 25px;
+    }
+    .formText h1{
+        font-size: 1.5rem;
+    }
+    .formText h2{
+        font-size: 1rem;
+    }
+    .formText p{
+        font-size: .9rem;
+    }
+    .img01,.img02,.img03{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .container{
+        width: 98%;
+    }
+    .text1{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,91 @@
+@media screen and /*tablet*/ (min-width: 600px) and (max-width: 1000px) {
+    .op{
+        font-size: 18px;
+    }
+    .text{
+        width: 65%;
+    
+    }
+    .text h2{
+        
+        font-size: 3.5em;
+    }
+    .lembrar{
+        font-size: 13px;
+    }
+    .login p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    #login{
+        font-size: 1.2em;
+        height: 28px;
+    }
+    .login h2{
+        padding-top: 25px;
+    }
+    
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    body{
+        overflow: hidden;
+    }
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .banner{
+        width: 100%;
+    }
+    .text {
+        display: none;
+    }
+    #email{
+        margin-left: 5%;
+    }
+    #senha{
+        margin-left: 5%;
+    }
+    .icon{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -10px;
+
+        
+    }
+    .login{
+        backdrop-filter: none;
+        position: absolute;
+        width: 100%;
+        top: 00%;
+        height: 100%;
+    }
+    .login h2{
+        font-size: 2em;
+    }
+    .lembrar{
+        font-size: 12px;
+        display: block;
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+        
+    }
+    .login h2{
+        padding-top: 20px;
+    }
+    .login p {
+        font-size: 12px;
+    }
+    nav{
+        display: none;
+    }
+    
+    
+}
