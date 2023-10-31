@@ -112,8 +112,14 @@
         width: 80%;
         margin: auto;
     }
-    nav a{
+    .navBar{
         display: none;
+    }
+    #burguer{
+        display: block;
+    }
+    .iconMenu{
+        display: block;
     }
     main{
         display: block;
@@ -287,6 +293,6 @@
         width: 98%;
     }
     .text1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }

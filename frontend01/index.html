@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="midiaquery.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
   
   <title>Frontend Mentor | News homepage</title>
 
@@ -30,12 +30,29 @@
           <a href="">Trending</a>
           <a href="">Categories</a>
         </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <div class="mobileNav" id="itens">
+          <span class="material-symbols-outlined" onclick="clickMenu()">close</span>
+          <a href="">Home</a>
+          <br>
+          <a href="">New</a>
+          <br>
+          <a href="">Popular</a>
+          <br>
+          <a href="">Trending</a>
+          <br>
+          <a href="">Categories</a>
+        </div>
       </nav>
     </header>
     <main>
 
       <section id="primeiro">
-        <img src="assets/images/image-web-3-desktop.jpg" alt="" class="img00">
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/images/image-web-3-mobile.jpg">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="" class="img00">
+        </picture>
+        
 
         <div class="text">
 
@@ -113,7 +130,7 @@
     
     
   </div>
-  
+  <script src="script.js"></script>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.

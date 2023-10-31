@@ -30,7 +30,6 @@
 .container{
     margin: auto;
     width: 80%;
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     flex-direction: column
@@ -47,6 +46,50 @@ nav a{
     text-decoration: none;
     color: gray;
     font-family: var(--inter);
+    font-size: 1.3rem;
+}
+.logo{
+    width: 13vw;
+    max-width: 90px;
+}
+.mobileNav{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    right: 0%;
+    font-size: 4vw;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 50px;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    display: none;
+}
+.iconMenu{
+    display: none;
+    cursor: pointer;
+}
+.iconMenu button{
+    border: none;
+}
+#itens span{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+
+}
+#burguer{
+    display: none;
+}
+nav span{
+    cursor: pointer;
+    display: none;
+}
+.mobileNav a{
+    font-size: 1.5em;
+    line-height: 50px;
 }
 main{
     width: 100%;
@@ -88,6 +131,11 @@ img{
     border: none;
     color: #fff;
     font-family: var(--inter-bold);
+    cursor: pointer;
+}
+.text button:hover{
+    transition: all .4s ease-in-out;
+    background-color: #953a31;
 }
 article{
     width: 32%;
