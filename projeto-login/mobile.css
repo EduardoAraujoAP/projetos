@@ -1,31 +1,48 @@
-@media screen and /*tablet*/ (min-width: 600px) and (max-width: 1000px) {
-    .op{
-        font-size: 18px;
-    }
+@media screen and (max-width: 1000px) {
     .text{
-        width: 65%;
-    
-    }
-    .text h2{
-        
-        font-size: 3.5em;
+        width: 80%;
     }
     .lembrar{
         font-size: 13px;
+        padding: 25px 0px;
     }
     .login p{
-        font-size: 14px;
         padding-top: 10px;
     }
     #login{
         font-size: 1.2em;
         height: 28px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .login h2{
         padding-top: 25px;
+        font-size: 2rem;
+    }
+    .text p{
+        font-size: 2vw;
+    }
+    .text h2{
+        font-size: 8vw;
+    }
+    .text h3{
+        font-size: 4vw;
     }
     
+
 }
+@media screen and (max-width: 800px){
+        
+    nav a{
+        font-size: 14px;
+    }
+    .login p{
+        font-size: 13px;
+    }
+
+
+
+    }
 @media screen and (min-width: 0px) and (max-width: 600px) {
     body{
         overflow: hidden;
@@ -83,8 +100,13 @@
     .login p {
         font-size: 12px;
     }
-    nav{
+    .op{
         display: none;
+    }
+    #burguer{
+        display: block;
+        color: #fff;
+        cursor: pointer;
     }
     
     
