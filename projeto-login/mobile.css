@@ -2,6 +2,10 @@
     .text{
         width: 80%;
     }
+    main{
+        height: 75%;
+        max-height: 400px;
+    }
     .lembrar{
         font-size: 13px;
         padding: 25px 0px;
